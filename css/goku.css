@@ -7,15 +7,9 @@
 
 body{
   font-family: "Inter", sans-serif;
+  font-size: 18px;
 }
 
-.goku{
-  margin: 50px auto;
-  display: block;
-  width: 400px;
-  filter: drop-shadow(0px 0px 20px yellow);
-
-}
 
 .spidy{
   margin: 50px auto;
@@ -24,6 +18,7 @@ body{
   height: 250px;
   margin-bottom: 0px;
   box-shadow: 0px 0px 20px black;
+  border-radius:10px 10px 0px 0px ;
 }
 
 .texto{
@@ -35,6 +30,7 @@ body{
   place-content: center;
   padding: 10px;
   box-shadow: 0px 0px 20px black;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .contenido{
@@ -43,19 +39,29 @@ body{
 
 .titulo{
   text-align: center;
-  margin-bottom:  0px;
-  color: red;
+  margin:20px 0px 10px;
+  color: #980404;
 }
 
 .boton{
   display: block;
   width: 110px;
   height: 40px;
-  background: rgb(220, 72, 72);
+  background: rgb(178 2 5);
   color: white;
   text-decoration: none;
   margin:0 auto;
   place-content: center;
   text-align: center;
   border-radius: 5px;
+  margin-top: 5%;
+}
+
+
+.goku{
+  display: block;
+  margin: 50px auto;
+  width: 250px;
+  filter: drop-shadow(0px 0px 20px yellow);
+
 }
